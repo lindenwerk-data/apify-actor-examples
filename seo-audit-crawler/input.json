@@ -1,0 +1,10 @@
+{
+  "startUrls": ["https://crawlee.dev"],
+  "mode": "crawl",
+  "maxPagesPerSite": 5,
+  "maxDepth": 2,
+  "checkLinks": "internal",
+  "maxLinkChecksPerSite": 50,
+  "includeSiteSummary": true,
+  "maxConcurrencyPerSite": 2
+}

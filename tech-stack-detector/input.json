@@ -1,0 +1,9 @@
+{
+  "urls": ["shopware.com", "typo3.org", "ghost.org"],
+  "includeDns": true,
+  "includeGdprSignals": true,
+  "includeSecurityHeaders": false,
+  "includeEvidence": false,
+  "minConfidence": 50,
+  "maxSites": 5
+}

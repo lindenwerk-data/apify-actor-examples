@@ -1,0 +1,16 @@
+{
+  "mode": "backfill",
+  "profileName": "it-services-idf",
+  "cpvCodes": ["72", "48"],
+  "keywords": ["informatique", "logiciel", "infogérance", "cybersécurité", "hébergement"],
+  "excludeKeywords": ["nettoyage"],
+  "regions": ["FR1"],
+  "contractTypes": ["services", "supplies"],
+  "sources": ["boamp", "ted"],
+  "noticeTypes": ["tender"],
+  "onlyOpen": true,
+  "minScore": 50,
+  "maxResults": 10,
+  "sortBy": "deadline",
+  "descriptionMaxLength": 300
+}

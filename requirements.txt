@@ -1,0 +1,2 @@
+# Python examples (run.py in each folder, recipes/*.py)
+apify-client>=2.0

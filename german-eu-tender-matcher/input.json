@@ -1,0 +1,16 @@
+{
+  "mode": "backfill",
+  "profileName": "it-security-germany",
+  "cpvCodes": ["72", "48"],
+  "keywords": ["IT-Sicherheit", "Informationssicherheit", "Cybersicherheit", "ISMS", "Penetrationstest", "SIEM"],
+  "excludeKeywords": ["Reinigung"],
+  "countries": ["DE"],
+  "sources": ["oeffentlichevergabe", "ted"],
+  "noticeTypes": ["tender"],
+  "onlyOpen": true,
+  "minDaysUntilDeadline": 7,
+  "minScore": 60,
+  "maxResults": 10,
+  "sortBy": "relevance",
+  "descriptionMaxLength": 300
+}

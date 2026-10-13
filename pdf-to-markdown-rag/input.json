@@ -1,0 +1,10 @@
+{
+  "documentUrls": ["https://www.w3.org/WAI/WCAG21/working-examples/pdf-table/table.pdf"],
+  "outputMode": "documents-and-chunks",
+  "chunkSize": 1000,
+  "chunkOverlap": 100,
+  "pageMarkers": true,
+  "removeHeadersFooters": true,
+  "maxDocuments": 5,
+  "maxPagesPerDocument": 50
+}

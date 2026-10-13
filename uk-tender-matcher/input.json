@@ -1,0 +1,15 @@
+{
+  "mode": "monitor",
+  "profileName": "uk-it-daily",
+  "cpvCodes": ["72", "48"],
+  "keywords": ["software", "cloud", "cyber security", "data platform", "managed service"],
+  "excludeKeywords": ["catering", "cleaning"],
+  "noticeTypes": ["tender"],
+  "onlyOpen": true,
+  "minScore": 50,
+  "lookbackDays": 2,
+  "firstRunBackfillDays": 7,
+  "maxResults": 10,
+  "sortBy": "deadline",
+  "descriptionMaxLength": 300
+}

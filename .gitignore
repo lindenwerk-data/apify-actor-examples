@@ -1,0 +1,11 @@
+# Outputs written by the example scripts
+*.csv
+*.jsonl
+markdown/
+site-summary.json
+seen-*.json
+# Local tooling
+node_modules/
+__pycache__/
+.venv/
+.env

@@ -1,0 +1,14 @@
+{
+  "mode": "search",
+  "profileName": "it-small-business",
+  "keywords": ["cybersecurity", "software", "cloud", "network"],
+  "naicsCodes": ["541511", "541512", "541519", "518210"],
+  "setAsides": ["small-business"],
+  "noticeTypes": ["solicitation", "presolicitation", "sources-sought"],
+  "postedWithinDays": 7,
+  "onlyOpen": true,
+  "minScore": 50,
+  "maxResults": 10,
+  "sortBy": "deadline",
+  "descriptionMaxLength": 300
+}
