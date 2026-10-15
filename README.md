@@ -19,11 +19,35 @@ The Actors themselves run on Apify; this repo only contains the client-side code
 | [UK Tenders Monitor: Government Contracts & Find a Tender Alerts](https://apify.com/lindenwerk/uk-tender-matcher) | Daily UK tender alerts from Find a Tender (Procurement Act 2023), with SME/VCSE flags | 0.008 per scored match · 0.003 per unscored notice | [`uk-tender-matcher/`](uk-tender-matcher) |
 | [SAM.gov Government Contract Opportunities Monitor](https://apify.com/lindenwerk/sam-gov-contract-matcher) | US federal opportunities by NAICS, PSC, set-aside and keywords; amendments merged; no API key | 0.003 per scored match · 0.0015 per unscored opportunity | [`sam-gov-contract-matcher/`](sam-gov-contract-matcher) |
 | [Website Technology & Tech Stack Detector: BuiltWith Alternative](https://apify.com/lindenwerk/tech-stack-detector) | CMS, shop system, analytics, consent, CDN, frameworks, email provider and SaaS for a list of domains | 0.01 per analysed site · 0.002 per partial result · sites with no detection free | [`tech-stack-detector/`](tech-stack-detector) |
-| [SEO Audit Crawler: Broken Links, llms.txt & AI Bot Check](https://apify.com/lindenwerk/seo-audit-crawler) | Technical SEO audit per page (0–100 score, issues, broken links) plus AI crawler and llms.txt checks per site | 0.008 per audited page · 0.01 per site summary | [`seo-audit-crawler/`](seo-audit-crawler) |
+| [SEO Audit & Site Audit: Broken Links & AI Bot Check](https://apify.com/lindenwerk/seo-audit-crawler) | Technical SEO audit per page (0–100 score, issues, broken links) plus AI crawler and llms.txt checks per site | 0.008 per audited page · 0.01 per site summary | [`seo-audit-crawler/`](seo-audit-crawler) |
 | [PDF to Markdown & RAG Chunks: Document Parser (DOCX/PPTX/XLSX)](https://apify.com/lindenwerk/pdf-to-markdown-rag) | PDF, Word, PowerPoint and Excel to Markdown with inline tables and page-cited chunks for RAG | 0.002 per converted document · 0.0005 per page with text | [`pdf-to-markdown-rag/`](pdf-to-markdown-rag) |
 
 Every run also has Apify's start event (USD 0.00005). Prices are copied from the Store pages in October 2026;
 the Store page is authoritative if they change.
+
+## Sector examples for the tender Actors
+
+Published example tasks on Apify with a ready-made input for one sector (open tenders from the last 7 days,
+scored, with deadlines and match reasons). Open one, adjust CPV codes, keywords and regions, and run it in your own
+Apify account.
+
+**German & EU Tenders**
+
+- [Ausschreibungen Bau Deutschland - construction tenders](https://apify.com/lindenwerk/german-eu-tender-matcher/examples/ausschreibungen-bau-deutschland): public works (CPV 45) for construction firms and trades
+- [Ausschreibungen Gebäudereinigung & Facility Management](https://apify.com/lindenwerk/german-eu-tender-matcher/examples/ausschreibungen-gebaeudereinigung-facility-management): cleaning and FM services (CPV 909, 79993)
+- [Ausschreibungen Beratung Deutschland - consulting tenders](https://apify.com/lindenwerk/german-eu-tender-matcher/examples/ausschreibungen-beratung-consulting-deutschland): consulting, Gutachten and Studien (CPV 794, 7931)
+
+**France Tenders**
+
+- [Construction tenders in France (BOAMP + TED) - BTP works](https://apify.com/lindenwerk/france-tender-matcher/examples/construction-tenders-france-btp): marchés de travaux (CPV 45) for builders and BTP trades
+- [Cleaning tenders in France (BOAMP + TED) - nettoyage](https://apify.com/lindenwerk/france-tender-matcher/examples/cleaning-tenders-france-nettoyage): nettoyage, propreté and vitrerie (CPV 909)
+- [Consulting and study tenders in France (BOAMP + TED)](https://apify.com/lindenwerk/france-tender-matcher/examples/consulting-tenders-france-conseil-etudes): conseil, études, audit and AMO (CPV 794, 7931, 713)
+
+**UK Tenders**
+
+- [UK construction tenders - last 7 days](https://apify.com/lindenwerk/uk-tender-matcher/examples/uk-construction-tenders): public sector works from Find a Tender (CPV 45)
+- [UK facilities management and cleaning tenders](https://apify.com/lindenwerk/uk-tender-matcher/examples/uk-facilities-management-cleaning-tenders): FM, cleaning and janitorial services (CPV 909, 79993)
+- [UK healthcare and medical supplies tenders](https://apify.com/lindenwerk/uk-tender-matcher/examples/uk-healthcare-medical-supplies-tenders): medical equipment, supplies and healthcare services (CPV 33, 85)
 
 ## Quickstart
 
