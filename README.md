@@ -49,6 +49,35 @@ Apify account.
 - [UK facilities management and cleaning tenders](https://apify.com/lindenwerk/uk-tender-matcher/examples/uk-facilities-management-cleaning-tenders): FM, cleaning and janitorial services (CPV 909, 79993)
 - [UK healthcare and medical supplies tenders](https://apify.com/lindenwerk/uk-tender-matcher/examples/uk-healthcare-medical-supplies-tenders): medical equipment, supplies and healthcare services (CPV 33, 85)
 
+## Use-case examples for the other Actors
+
+Published example tasks on Apify with a ready-made input for one use case. Open one, replace the keywords, sites or
+documents with your own, and run it in your own Apify account.
+
+**SAM.gov Government Contract Opportunities**
+
+- [SAM.gov construction contract opportunities - last 7 days](https://apify.com/lindenwerk/sam-gov-contract-matcher/examples/sam-gov-construction-contract-opportunities): federal construction solicitations (NAICS 236, 237, 238)
+- [SAM.gov SDVOSB and 8(a) set-aside contract opportunities](https://apify.com/lindenwerk/sam-gov-contract-matcher/examples/sam-gov-sdvosb-8a-set-aside-opportunities): set-asides for SDVOSB and 8(a) small businesses
+- [SAM.gov management consulting contract opportunities](https://apify.com/lindenwerk/sam-gov-contract-matcher/examples/sam-gov-management-consulting-opportunities): program management, advisory and training (NAICS 5416xx, 611430)
+
+**Website Technology & Tech Stack Detector**
+
+- [Detect Shopify stores and other ecommerce platforms](https://apify.com/lindenwerk/tech-stack-detector/examples/detect-shopify-stores-ecommerce-platform): shop system, payments and CMS per site
+- [Which CMS is this website using? WordPress, Drupal, TYPO3](https://apify.com/lindenwerk/tech-stack-detector/examples/which-cms-is-this-website-using): CMS, page builder or site generator per site
+- [Check cookie consent and analytics tools (GDPR signals)](https://apify.com/lindenwerk/tech-stack-detector/examples/cookie-consent-analytics-gdpr-check): consent manager, analytics, tag manager and GDPR signals
+
+**SEO Audit & Site Audit**
+
+- [Check llms.txt and AI crawler rules (GPTBot) in robots.txt](https://apify.com/lindenwerk/seo-audit-crawler/examples/check-llms-txt-ai-crawler-robots-txt): llms.txt and AI crawler rules per site
+- [Broken link checker: find 404s and broken links on a site](https://apify.com/lindenwerk/seo-audit-crawler/examples/broken-link-checker-website): broken internal and external links, page by page
+- [Hreflang checker: audit a multilingual website](https://apify.com/lindenwerk/seo-audit-crawler/examples/hreflang-multilingual-seo-audit): hreflang codes, self-references and lang attribute
+
+**PDF to Markdown & RAG Chunks**
+
+- [Convert an arXiv paper PDF to Markdown for LLMs](https://apify.com/lindenwerk/pdf-to-markdown-rag/examples/arxiv-paper-pdf-to-markdown): research paper to Markdown plus page-cited chunks
+- [Turn a government PDF report into RAG chunks](https://apify.com/lindenwerk/pdf-to-markdown-rag/examples/government-pdf-to-rag-chunks): heading-aware chunks for a vector database
+- [Batch convert multiple PDFs to Markdown in one run](https://apify.com/lindenwerk/pdf-to-markdown-rag/examples/batch-convert-pdfs-to-markdown): one row per document, also DOCX, PPTX and XLSX
+
 ## Quickstart
 
 ### 1. Get an Apify API token
