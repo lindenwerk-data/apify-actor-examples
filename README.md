@@ -78,6 +78,17 @@ documents with your own, and run it in your own Apify account.
 - [Turn a government PDF report into RAG chunks](https://apify.com/lindenwerk/pdf-to-markdown-rag/examples/government-pdf-to-rag-chunks): heading-aware chunks for a vector database
 - [Batch convert multiple PDFs to Markdown in one run](https://apify.com/lindenwerk/pdf-to-markdown-rag/examples/batch-convert-pdfs-to-markdown): one row per document, also DOCX, PPTX and XLSX
 
+## Free do-it-yourself tutorials (no Apify account needed)
+
+If you'd rather build a small version yourself, these step-by-step Python tutorials use only free public APIs or open-source libraries. They are educational, not a copy of the Actors.
+
+- [Daily UK tender alert with the free Find a Tender API](https://dev.to/lindenwerkdata/build-a-daily-uk-tender-alert-in-python-with-the-free-find-a-tender-api-5hnp)
+- [Daily French public-tender alert with the free BOAMP open data API](https://dev.to/lindenwerkdata/build-a-daily-french-public-tender-alert-in-python-with-the-free-boamp-open-data-api-3c1i)
+- [Daily German and EU public-tender alert with the free TED Search API](https://dev.to/lindenwerkdata/build-a-daily-german-and-eu-public-tender-alert-in-python-with-the-free-ted-search-api-ohk)
+- [Daily US federal contract-opportunity alert with the free SAM.gov data extract](https://dev.to/lindenwerkdata/build-a-daily-us-federal-contract-opportunity-alert-in-python-with-the-free-samgov-data-extract-3eck)
+- [PDF to RAG-ready Markdown chunks with MIT/BSD libraries only](https://dev.to/lindenwerkdata/pdf-to-rag-ready-markdown-chunks-in-python-headings-two-column-pages-and-tables-with-mitbsd-4ka9)
+- [Website tech-stack detector with HTML, headers and DNS](https://dev.to/lindenwerkdata/build-a-website-tech-stack-detector-in-python-with-html-headers-and-dns-2im5)
+
 ## Quickstart
 
 ### 1. Get an Apify API token
