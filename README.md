@@ -88,6 +88,7 @@ If you'd rather build a small version yourself, these step-by-step Python tutori
 - [Daily US federal contract-opportunity alert with the free SAM.gov data extract](https://dev.to/lindenwerkdata/build-a-daily-us-federal-contract-opportunity-alert-in-python-with-the-free-samgov-data-extract-3eck)
 - [PDF to RAG-ready Markdown chunks with MIT/BSD libraries only](https://dev.to/lindenwerkdata/pdf-to-rag-ready-markdown-chunks-in-python-headings-two-column-pages-and-tables-with-mitbsd-4ka9)
 - [Website tech-stack detector with HTML, headers and DNS](https://dev.to/lindenwerkdata/build-a-website-tech-stack-detector-in-python-with-html-headers-and-dns-2im5)
+- [Polite mini SEO site auditor with robots.txt and a tiny crawl](https://dev.to/lindenwerkdata/build-a-polite-mini-seo-site-auditor-in-python-with-robotstxt-and-a-tiny-crawl-5340)
 
 ## Quickstart
 
